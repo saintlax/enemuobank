@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dim_10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/transaction_type"
+        android:text="transaction_type"
+        android:textStyle="bold"
+        android:padding="@dimen/dim_5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/amount"
+        android:text="amount"
+        android:textStyle="bold"
+        android:padding="@dimen/dim_5dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/available_balance"
+        android:text="available_balance"
+        android:textStyle="bold"
+        android:padding="@dimen/dim_5dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        android:text="description"
+        android:textStyle="bold"
+        android:padding="@dimen/dim_5dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:text="time"
+        android:textStyle="bold"
+        android:padding="@dimen/dim_5dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timestamp"
+        android:text="timestamp"
+        android:textStyle="bold"
+        android:padding="@dimen/dim_5dp" />
+</LinearLayout>

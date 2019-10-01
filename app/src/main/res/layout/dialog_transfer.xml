@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dim_10dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dim_5dp">
+
+            <EditText
+                android:id="@+id/amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:hint="Amount"
+                android:imeActionId="7"
+                android:imeActionLabel="Send"
+                android:imeOptions="actionUnspecified"
+                android:maxLines="6"
+                android:singleLine="false" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dim_5dp">
+
+        <EditText
+            android:id="@+id/account_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="Account Number"
+            android:imeActionId="7"
+            android:imeActionLabel="Send"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="6"
+            android:singleLine="false" />
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>

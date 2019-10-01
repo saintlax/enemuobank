@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dim_10dp">
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dim_5dp">
+
+            <EditText
+                android:id="@+id/first_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:inputType="text"
+                android:ems="10"
+                android:hint="First Name"
+                android:imeActionId="7"
+                android:imeActionLabel="Add"
+                android:imeOptions="actionUnspecified"
+                android:maxLines="6"
+                android:singleLine="false" />
+        </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dim_5dp">
+
+        <EditText
+            android:id="@+id/last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:inputType="text"
+            android:ems="10"
+            android:hint="Last Name"
+            android:imeActionId="7"
+            android:imeActionLabel="Add"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="6"
+            android:singleLine="false" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dim_5dp">
+
+        <EditText
+            android:id="@+id/account_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="Choose account number"
+            android:imeActionId="7"
+            android:imeActionLabel="Add"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="6"
+            android:singleLine="false" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dim_5dp">
+
+        <EditText
+            android:id="@+id/pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="Choose a PIN"
+            android:imeActionId="7"
+            android:imeActionLabel="Add"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="6"
+            android:singleLine="false" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dim_5dp">
+
+        <EditText
+            android:id="@+id/balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="Add a Balance"
+            android:imeActionId="7"
+            android:imeActionLabel="Add"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="6"
+            android:singleLine="false" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+</LinearLayout>
